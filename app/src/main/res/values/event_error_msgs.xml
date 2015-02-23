@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="error_msg_401">Авторизуйтесь</string>
+    <string name="error_msg_401_bad_credentials">Логин/пароль указаны некорректно</string>
+
+    <string name="error_msg_service_unavailable">Не удалось подключиться к серверу</string>
+    <string name="error_msg_no_internet">Подключение к интернету отсутствует.</string>
+    <string name="error_msg_unknown">Неизвестная ошибка!</string>
+    <string name="error_msg_unforseen">Непредвиденная ошибка</string>
+    <string name="error_msg_unauth">Авторизуйтесь!</string>
+    <string name="error_msg_limit_reached">Похоже, часовой лимит запросов к API исчерпан. Повторите попытку позже.</string>
+    <string name="event_trying_to_logout">Выйти из-под пользователя </string>
+
+</resources>

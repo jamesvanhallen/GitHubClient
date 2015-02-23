@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/tvCommitHash"
+        android:layout_height="80dp"
+        android:paddingLeft="10dp"
+        android:layout_width="65dp"
+        android:text="xxxxx"
+        android:background="#ffffb13d" />
+    <TextView
+        android:id="@+id/tvCommitMsg"
+        android:text="xxxxx"
+        android:layout_weight="1"
+        android:paddingLeft="10dp"
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:background="#ffffb13d" />
+    <TextView
+        android:id="@+id/tvCommitAuthor"
+        android:layout_height="80dp"
+        android:paddingLeft="10dp"
+        android:layout_width="85dp"
+        android:background="#ffffb13d" />
+    <TextView
+        android:id="@+id/tvCommitDate"
+        android:layout_height="80dp"
+        android:minLines="2"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:layout_width="75dp"
+        android:background="#ffffb13d" />
+
+</LinearLayout>

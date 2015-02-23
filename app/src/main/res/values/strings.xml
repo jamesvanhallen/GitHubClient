@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TestGitHubClient</string>
+    <string name="loading">...ЗАГРУЗКА...</string>
+    <string name="na">N/A</string>
+    <string name="positive_alert">Да</string>
+    <string name="negative_alert">Нет</string>
+    <string name="logout">Вы действительно хотите выйти?</string>
+    <string name="hint_password">password</string>
+    <string name="login_btn">Вход!</string>
+    <string name="hint_login">login</string>
+    <string name="title_activity_repository_list">Доступные репозитории</string>
+    <string name="on_back">Назад</string>
+    <string name="th_repolist_repository">Репзоитории</string>
+    <string name="th_repolist_owner">Владелец</string>
+    <string name="title_activity_repository">Коммиты репозитория</string>
+    <string name="repo_unavailable">Возможно, такого репозитория не существует или у Вас нет к нему доступа.</string>
+    <string name="no_commits">Похоже, ещё не было ни одного коммита</string>
+    <string name="repo_created">Создан: </string>
+    <string name="repo_pushed">Обновлён: </string>
+    <string name="repo_owner">Владелец: </string>
+    <string name="repo_description">Описание: </string>
+    <string name="th_commitlist_commit">Коммит</string>
+    <string name="th_commitlist_descr">Описание</string>
+    <string name="th_commitlist_author">Автор</string>
+    <string name="th_commitlist_date">Дата</string>
+    <string name="no_repo_info">Похоже, нету доступных репозиториев</string>
+    <string name="repo_inf">repo</string>
+    <string name="name_repo">respoitory name</string>
+    <string name="name_owner">owner</string>
+    <string name="watches">W</string>
+    <string name="forks">F</string>
+    <string name="user_logout">Выйти</string>
+    <string name="user_login_hidden">UserLogin</string>
+    <string name="empty_repo">Нет доступных репозиториев</string>
+    <string name="empty_commit">Еще небыло коммитов</string>
+
+
+</resources>

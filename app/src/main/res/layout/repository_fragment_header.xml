@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:background="#ffffa44c"
+        android:layout_height="70dp"
+        android:id="@+id/first_head"
+        android:layout_gravity="center_horizontal"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:text="@string/user_login_hidden"
+            android:id="@+id/mTvUser"
+            android:layout_weight="1"
+            android:textSize="18dp"
+            android:textIsSelectable="false" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/user_logout"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:id="@+id/log_out_btn"
+            android:background="#ffffe52b"
+            android:textColor="#000000" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffe72f">
+
+       <TextView
+
+            android:text="@string/th_repolist_repository"
+            android:layout_weight="2"
+            android:layout_width="150dp"
+            android:layout_gravity="center_vertical"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            />
+
+       <TextView
+
+            android:text="@string/th_commitlist_author"
+            android:layout_gravity="center_vertical"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            />
+
+       <TextView
+
+            android:text="@string/forks"
+            android:gravity="right"
+            android:layout_weight="1"
+            android:layout_width="20dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginBottom="5dp"
+            android:layout_height="wrap_content"
+            />
+       <TextView
+
+            android:text="@string/watches"
+            android:gravity="right"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            />
+
+    </LinearLayout>
+</LinearLayout>
